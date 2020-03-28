@@ -1,0 +1,20 @@
+.home_button,
+.home_button:link,
+.home_button:visited,
+.home_button:hover {
+  color: white;
+  text-decoration: none;
+  background-color: aquamarine;
+}
+.test {
+  color: violet;
+}
+.background {
+  background-color: lightgray;
+}
+.box {
+  background-color: white;
+}
+li{
+    display: inline;
+}
