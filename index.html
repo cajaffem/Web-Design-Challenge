@@ -3,25 +3,69 @@
 
 <head>
     <meta charset= “utf-8”>
-    <style></style>
-    <!--navbar from bootstrap-->
+    <title>Main Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="../Web-Design-Challenge/WebVisualizations/style.css">
 </head>
 
-<body>
-    <h1>Summary: Latitude vs. X</h1>
-    <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, 
-        we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-    <p>After assembling the dataset, we used Matplotlib to plot various aspects of weather vs. latitude. Factors we looked at include:
-        temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the
-        analysis, as well as explanations and descriptions of any trends and correlations witnessed.
-    </p>
-
-    <div>
-        <h2>Visualizations</h2>
-        <img src="Resources/assets/images/Fig1.png">
-        <img src="Resources/assets/images/Fig2.png">
-        <img src="Resources/assets/images/Fig3.png">
-        <img src="Resources/assets/images/Fig4.png">
+<body class="background">
+    <div class="container">
+        <div class="row box">
+            <div class="col-md-4">
+                    <h3><a href="index.html" class="home_button">Latitude</a></h3>
+            </div>
+            <div class="col-md-4">
+                <nav>
+                    <ul>
+                        <li class="navbutton">
+                            <ul>Plots
+                                <li>
+                                    <a href="../Web-Design-Challenge/WebVisualizations/visualizations/visualization_maxtemp.html">Max Temperature</a>
+                                </li>
+                                <li>
+                                    <a href="../Web-Design-Challenge/WebVisualizations/visualizations/visualization_humidity.html">Cloudiness</a>
+                                </li>
+                                <li>
+                                    <a href="../Web-Design-Challenge/WebVisualizations/visualizations/visualization_cloudiness.html">Humidity</a>
+                                </li>
+                                <li>
+                                    <a href="../Web-Design-Challenge/WebVisualizations/visualizations/visualization_wind_speed.html.html">Wind Speed</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="navbutton">
+                            <a href="../Web-Design-Challenge/WebVisualizations/comparisons_page.html">Comparison</a>
+                        </li>
+                        <li class="navbutton">
+                            <a href="../Web-Design-Challenge/WebVisualizations/data_page.html">Data</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="row box">
+            <div class="col-md-8">
+                <h1 class="test">Summary: Latitude vs. X</h1>
+                    <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, 
+                        we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
+                    </p>
+                    <p>After assembling the dataset, we used Matplotlib to plot various aspects of weather vs. latitude. Factors we looked at include:
+                        temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the
+                        analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+                    </p>
+            </div>
+            <div class="col-md-4">
+                <h2>Visualizations</h2>
+                <div class="charts_preview">
+                    <img src="Webvisualizations/Resources/assets/images/Fig1.png" height="350" width="400">
+                    <img src="Webvisualizations/Resources/assets/images/Fig2.png" height="350" width="400">
+                    <img src="Webvisualizations/Resources/assets/images/Fig3.png" height="350" width="400">
+                    <img src="Webvisualizations/Resources/assets/images/Fig4.png" height="350" width="400">
+                </div>
+            </div>
+        </div>
     </div>
 
 </body>
