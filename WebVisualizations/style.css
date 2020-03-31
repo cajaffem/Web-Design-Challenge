@@ -1,10 +1,12 @@
-.home_button,
-.home_button:link,
-.home_button:visited,
-.home_button:hover {
+.home-button,
+.home-button:link,
+.home-button:visited,
+.home-button:hover {
   color: white;
+  font-size: 1.5rem;
   text-decoration: none;
-  background-color: aquamarine;
+  background-color: darkcyan;
+  padding: 1rem;
 }
 .test {
   color: violet;
@@ -14,7 +16,5 @@
 }
 .box {
   background-color: white;
-}
-.navbutton{
-    display: inline;
+  margin: 0px;
 }
