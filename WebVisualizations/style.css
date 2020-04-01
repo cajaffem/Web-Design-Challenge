@@ -1,6 +1,9 @@
 .bg-custom {
   background-color: white;
 }
+.headings{
+  color: darkcyan;
+}
 .home-button,
 .home-button:link,
 .home-button:visited,
